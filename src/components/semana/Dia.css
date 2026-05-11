@@ -1,0 +1,10 @@
+.dia{
+    border-radius: 5px;
+    padding: .3em .5em;
+    background: var(--accent-bg);
+    color: var(--accent);
+}
+.marcado{
+    background: var(--accent);
+    color: black;
+}
