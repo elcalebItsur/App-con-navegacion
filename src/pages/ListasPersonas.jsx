@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Semana from './semana/Semana.jsx'
-import personas from './datos/personas.json'
+import Semana from '../components/semana/Semana.jsx'
+import personas from '../datos/personas.json'
 
 function ListasPersonas() {
     // Estado para la lista de personas, visibilidad del formulario, campos del formulario y modo edición
