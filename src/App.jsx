@@ -12,10 +12,12 @@ function App() {
     <Routes>
       <Route path="/" element={<PublicLayout />}>
         <Route index element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+      </Route>
+      <Route path="/" element={<PrivateLayout />}>
         <Route path="about" element={<About />} />
         <Route path="products" element={<Products />} />
         <Route path="personas" element={<ListasPersonas />} />
-        <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
   );
